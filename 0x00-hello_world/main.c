@@ -13,6 +13,7 @@
 int main(void)
 
 {
+	printf("I learnt something new")
 
 	 return (0);
 
