@@ -15,6 +15,7 @@
 int main(void)
 
 {
+	printf("assembler not linking")
 
 	    return (0);
 
