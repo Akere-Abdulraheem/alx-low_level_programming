@@ -12,20 +12,16 @@
  * Return value 0sucess
  */
 
+void print_alphabet(void);
 
-int main () {
+int main () 
+{
 
-	   char ch;
-
-
-
-	      for(ch = 'a' ; ch <= 'z' ; ch++) {
-
-		            putchar(ch);
-
-			       }
-
-	         
+	   char ch; 
+	   for(ch = 'a' ; ch <= 'z' ; ch++) 
+	   {
+		   putchar(ch);
+	   }  
 
 	         return(0);
 
