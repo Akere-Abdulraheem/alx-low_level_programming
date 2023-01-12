@@ -12,17 +12,18 @@
  * Return value 0sucess
  */
 
-void print_alphabet(void);
-
-int main () 
+int print_alphabet(void)
 {
+	char ch;
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	return (0);
+}
 
-	   char ch; 
-	   for(ch = 'a' ; ch <= 'z' ; ch++) 
-	   {
-		   putchar(ch);
-	   }  
-
-	         return(0);
-
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
