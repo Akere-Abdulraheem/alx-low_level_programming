@@ -1,19 +1,36 @@
 #include <stdio.h>
-#include "main.h"
-
-/**
- * main -Entry point
+/*
+ * main - entry point
  *
- * int _putchar == funtion
- * (int _putchar) == char type  text to print
+ * code print _putchar using putchar
  *
- *Return 0 on sucess
+ * return (0) always
  */
+int firstFive(void)
+{
+	char underscore = 95;
+	char p = 112;
+	char u = 117;
+	char t = 116;
+	char c = 99;
+	char h = 104;
+	char a = 97;
+	char r = 114;
+
+	putchar(underscore);
+	putchar(p);
+	putchar(u);
+	putchar(t);
+	putchar(c);
+	putchar(h);
+	putchar(a);
+	putchar(r);
+	putchar('\n');
+	return (0);
+}
 
 int main(void)
 {
-
-	int _putchar (int _putchar);
-
+	firstFive();
 	return (0);
 }
