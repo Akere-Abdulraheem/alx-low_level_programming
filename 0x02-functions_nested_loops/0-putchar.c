@@ -1,11 +1,15 @@
 #include <stdio.h>
+
 /*
- * main - entry point
+ * firstFive - the code
  *
  * code print _putchar using putchar
+ * char == the variables
+ * putchar == use to view char
  *
  * return (0) always
  */
+
 int firstFive(void)
 {
 	char underscore = 95;
@@ -28,6 +32,14 @@ int firstFive(void)
 	putchar('\n');
 	return (0);
 }
+
+/*
+ * main - entry point
+ *
+ * firstFive == this code calls the function firstFive
+ *
+ * return (0) always
+ */
 
 int main(void)
 {
