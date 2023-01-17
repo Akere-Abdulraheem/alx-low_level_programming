@@ -2,6 +2,6 @@
 #define MAIN_H
 
 #include <stdio.h>
-int mul(int a, int b);
+int _isdigit(int c);
 
 #endif/**MAIN_H*/
