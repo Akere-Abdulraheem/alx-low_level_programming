@@ -2,6 +2,6 @@
 #define MAIN_H
 
 #include <stdio.h>
-int _isdigit(int c);
+void print_numbers(void);
 
 #endif/**MAIN_H*/
