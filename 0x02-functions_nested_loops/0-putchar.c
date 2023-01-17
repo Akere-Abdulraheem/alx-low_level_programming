@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * firstFive - the code
+/**
+ * firstFive - This is the code
  *
  * code print _putchar using putchar
  * char == the variables
@@ -33,10 +33,10 @@ int firstFive(void)
 	return (0);
 }
 
-/*
+/**
  * main - entry point
  *
- * firstFive == this code calls the function firstFive
+ * firstFive - This code calls the function firstFive
  *
  * return (0) always
  */
