@@ -2,6 +2,6 @@
 #define MAIN_H
 
 #include <stdio.h>
-int mul(int a, int b);
+int _isupper(int c);
 
-#endif/**MAIN_H*/
+#endif/*MAIN_H*/
