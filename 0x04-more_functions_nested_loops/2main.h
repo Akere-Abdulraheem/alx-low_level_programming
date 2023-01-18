@@ -2,6 +2,6 @@
 #define MAIN_H
 
 #include <stdio.h>
-void more_numbers(void);
+int mul(int a, int b);
 
 #endif/**MAIN_H*/

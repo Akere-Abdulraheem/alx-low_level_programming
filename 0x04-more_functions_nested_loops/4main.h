@@ -2,6 +2,6 @@
 #define MAIN_H
 
 #include <stdio.h>
-void more_numbers(void);
+void print_most_numbers(void);
 
 #endif/**MAIN_H*/

@@ -2,7 +2,7 @@
 /**
  * print_numbers - a function that prints numbers from 0 to 9.
  *
- * Return: multiplicatin of a and b
+ * Return: nothing void
  */
 
 void print_numbers(void)
