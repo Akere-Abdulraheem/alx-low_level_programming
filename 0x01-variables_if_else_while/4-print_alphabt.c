@@ -4,7 +4,7 @@
 /**
  * main -entry point
  *
- * a code that print alphabet in lowercase using putchar
+ * a code that print alphabet in lowercase using putchar except q and e
  *
  * Return: Always 0 (sucess)
  */
