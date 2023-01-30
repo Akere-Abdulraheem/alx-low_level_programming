@@ -6,7 +6,6 @@
 Example: C-program
 
 struct
-
 {
 
 	char *name;
@@ -15,8 +14,8 @@ struct
 
 } myInfo;  /* structure name is defined here */
 
-int main(void)
 
+int main(void)
 {
 
 	/* How to acess a var in struct...You use structName.varName */
@@ -28,6 +27,7 @@ int main(void)
 	printf("Name:%s\n Age:%d\n, myInfo.name, myInfo.age);
 	return (0);
 }
+
 
 * _Typedef helps us give a data-type a new name._
 
