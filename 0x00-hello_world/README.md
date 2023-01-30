@@ -1,6 +1,6 @@
 This is C basis
 
-File... 
+File...
 
 0  writes a scripts that runs C file through preprocessor and save it into another file.
 
