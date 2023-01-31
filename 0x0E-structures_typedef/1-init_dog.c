@@ -10,6 +10,10 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
+	if (*&d == NULL)
+	{
+		printf("Ok")
+	}
 	*&d->name = name; /* '->' is used instead of '.' because d is a pointer */
 	*&d->age = age;
 	*&d->owner = owner;

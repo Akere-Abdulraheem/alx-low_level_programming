@@ -20,6 +20,7 @@ struct dog
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 
-/* Implict decleration means you are trying to use a function that is not declared */
+/* Implict decleration means you are trying to use a function 
+ * that is not declared */
 
 #endif /* DOG_H */
