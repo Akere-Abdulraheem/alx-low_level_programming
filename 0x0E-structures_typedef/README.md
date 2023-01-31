@@ -20,7 +20,8 @@ int main(void)
 
 	/* How to acess a var in struct...You use structName.varName */
 
-	myInfo.name = "Akere Abdulraheem";
+	myInfo.name = "Akere Abdulraheem"; 
+	/*if it is a pointer--*&myInfo->name = "Akere Abdulraheem"--*/
 
 	myInfo.age = 20;
 
