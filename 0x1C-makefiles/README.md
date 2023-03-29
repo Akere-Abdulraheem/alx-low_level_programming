@@ -4,7 +4,7 @@
 ls the a program on linux that executes makefiles 
 
 * what are makefiles?
-It is a special file contain shell commands 
+It is a special file contain shell commands for compiling programs 
 
 * when, why and how to use makefiles
 when- when we have too many source code to compile

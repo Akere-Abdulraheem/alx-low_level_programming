@@ -1,23 +1,22 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main -entry point
+ *  print_alphabet - prints the alphabet in lowercase with newline
  *
  * char == character variable
- *
  * for == a for loop where ch == a and keeps incrementing untill it == to z
- *
  * putchar == print ch
  *
  * Return value 0sucess
  */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char ch;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
-	return (0);
+	putchar('\n');
 }

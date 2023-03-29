@@ -1,0 +1,10 @@
+# Here are some declared variable for change in future
+CC=gcc
+SRC=main.c school.c
+OBJ=*.o
+NAME=school
+
+all: update
+	$(CC) $(SRC) -o $(NAME)
+
+update:

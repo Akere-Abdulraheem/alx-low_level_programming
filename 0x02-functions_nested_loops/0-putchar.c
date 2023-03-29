@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * firstFive - This is the code
@@ -7,7 +7,7 @@
  * char == the variables
  * putchar == use to view char
  *
- * return (0) always
+ * Return: return (0) always
  */
 
 int firstFive(void)
@@ -30,19 +30,5 @@ int firstFive(void)
 	putchar(a);
 	putchar(r);
 	putchar('\n');
-	return (0);
-}
-
-/**
- * main - entry point
- *
- * firstFive - This code calls the function firstFive
- *
- * return (0) always
- */
-
-int main(void)
-{
-	firstFive();
 	return (0);
 }

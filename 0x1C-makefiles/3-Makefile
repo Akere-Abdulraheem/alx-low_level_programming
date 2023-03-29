@@ -1,0 +1,19 @@
+# Here are some declared variable for change in future
+CC=gcc # compiler to be used 
+SRC=main.c school.c # the .c files
+OBJ=*.o # the .o files
+NAME=school # name of exe
+RM= rm -f  # program to delete
+
+all: update  # Builds .exe
+	$(CC) -c -o $(NAME)
+
+clean: # deletes all emacs and vim temporary files along exe
+	$(RM) 
+oclean: # delete .o files
+	rm -f $(OBJ)
+fclean: # deletes all emacs and vim temporary files,exe and .o
+	rm -f $(OBJ) $()
+re: # force compile source files
+
+# vim and emacs temp. files == .swp .swo
